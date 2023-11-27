@@ -21,8 +21,8 @@ Running and compiling the program
 --------------------------
 Type or copy the commands below to compile and then run the code. Again, don't type ``$`` into the command line, it's just there to show that the command goes into the command line. "qewpfjkdaa" is just an example of a random string that you can name your shared memory. 
 ```
-$ g++ producer.cpp -pthread -lrt -o producer
-$ ./producer
+$ g++ banker.cpp -pthread -lrt -o banker
+$ ./banker
 ```
 
 Example output
