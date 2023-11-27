@@ -27,7 +27,7 @@ $ ./banker
 
 Example output
 ----------------------
-Below are some examples of the code running. 
+Below are some examples of the code running. Five processes exist here, named processes 0-4. We can start anywhere in the safe sequence, as it's just circular and doesn't matter. If we wanted to we could start at process 4, as long as the next one is process 0. Going backwards may not be possible, however. 
 ```
 [jgillis8@wasp ~]$ cd OpSYS/Proj_2/
 [jgillis8@wasp Proj_2]$ dir
